@@ -106,7 +106,7 @@ function a_estrella($grafo, $costo, $heuristica, $inicio, $fin) {
 } 
  
 // Ejecutamos el algoritmo A* 
-$inicio = 'Eforie'; 
+$inicio = 'Arad'; 
 $fin = 'Bucharest'; 
 $camino_optimo = a_estrella($grafo, 'costo', $heuristica, $inicio, $fin); 
  
